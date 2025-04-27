@@ -16,6 +16,7 @@ const Header = () => {
 					<ListItem><Link to={'/catalog'}>Catalog</Link></ListItem>
 					<ListItem><Link to={'/about'}>About</Link></ListItem>
 					<ListItem><Link to={'/FAQ'}>FAQ</Link></ListItem>
+					<ListItem><Link to={'/cart'}>Cart</Link></ListItem>
 				</ul>
 			</nav>
 			<div>

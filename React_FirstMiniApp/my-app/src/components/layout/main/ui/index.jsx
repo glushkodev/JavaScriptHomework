@@ -6,6 +6,7 @@ import FAQPage from "../../../pages/faq-page"
 import CatalogPage from "../../../pages/catalog-page"
 import { ContextProvider } from "../../../shared/context/CatalogContext"
 import ProductPage from "../../../pages/product-page/ui"
+import CartPage from "../../../pages/cart-page"
 
 const Main = () => {
 
@@ -18,6 +19,7 @@ const Main = () => {
 					<Route path="/catalog/:id" element={<ProductPage />} />
 					<Route path="/about" element={<AboutPage />} />
 					<Route path="/FAQ" element={<FAQPage />} />
+					<Route path="/cart" element={<CartPage />} />
 					<Route path="*" element={<PageNotFound />} />
 				</Routes>
 			</main>
